@@ -1739,7 +1739,7 @@ wwv_flow_imp_page.create_page_plug(
 '<p id=''p1''>Response...</p>',
 '<script>',
 'async function gemini(){',
-'const url = ''https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCMnrZsyDxsiEhKtg9swrQdko493EeKn8k'';',
+'const url = ''https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=YOUR_API_KEY_HERE'';',
 '',
 'const data = ''{"contents": [{"parts":[{"text": "''+document.getElementById("t1").value+''"}]}]}'';',
 '',
